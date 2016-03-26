@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3EB73AC1CA73D1E00B5C0CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB73AB1CA73D1E00B5C0CF /* AppDelegate.swift */; };
+		F3EB73AE1CA73D1E00B5C0CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB73AD1CA73D1E00B5C0CF /* ViewController.swift */; };
+		F3EB73B11CA73D1E00B5C0CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EB73AF1CA73D1E00B5C0CF /* Main.storyboard */; };
+		F3EB73B31CA73D1E00B5C0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EB73B21CA73D1E00B5C0CF /* Assets.xcassets */; };
+		F3EB73B61CA73D1E00B5C0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EB73B41CA73D1E00B5C0CF /* LaunchScreen.storyboard */; };
+		F3EB73C11CA73D1E00B5C0CF /* Richer_Planner_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB73C01CA73D1E00B5C0CF /* Richer_Planner_appTests.swift */; };
+		F3EB73CC1CA73D1E00B5C0CF /* Richer_Planner_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB73CB1CA73D1E00B5C0CF /* Richer_Planner_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3EB73BD1CA73D1E00B5C0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3EB73A01CA73D1E00B5C0CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3EB73A71CA73D1E00B5C0CF;
+			remoteInfo = "Richer Planner.app";
+		};
+		F3EB73C81CA73D1E00B5C0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3EB73A01CA73D1E00B5C0CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3EB73A71CA73D1E00B5C0CF;
+			remoteInfo = "Richer Planner.app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3EB73A81CA73D1E00B5C0CF /* Richer Planner.app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Richer Planner.app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EB73AB1CA73D1E00B5C0CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3EB73AD1CA73D1E00B5C0CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3EB73B01CA73D1E00B5C0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3EB73B21CA73D1E00B5C0CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3EB73B51CA73D1E00B5C0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3EB73B71CA73D1E00B5C0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3EB73BC1CA73D1E00B5C0CF /* Richer Planner.appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Richer Planner.appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EB73C01CA73D1E00B5C0CF /* Richer_Planner_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Richer_Planner_appTests.swift; sourceTree = "<group>"; };
+		F3EB73C21CA73D1E00B5C0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3EB73C71CA73D1E00B5C0CF /* Richer Planner.appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Richer Planner.appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EB73CB1CA73D1E00B5C0CF /* Richer_Planner_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Richer_Planner_appUITests.swift; sourceTree = "<group>"; };
+		F3EB73CD1CA73D1E00B5C0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3EB73A51CA73D1E00B5C0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EB73B91CA73D1E00B5C0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EB73C41CA73D1E00B5C0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3EB739F1CA73D1E00B5C0CF = {
+			isa = PBXGroup;
+			children = (
+				F3EB73AA1CA73D1E00B5C0CF /* Richer Planner.app */,
+				F3EB73BF1CA73D1E00B5C0CF /* Richer Planner.appTests */,
+				F3EB73CA1CA73D1E00B5C0CF /* Richer Planner.appUITests */,
+				F3EB73A91CA73D1E00B5C0CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3EB73A91CA73D1E00B5C0CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB73A81CA73D1E00B5C0CF /* Richer Planner.app.app */,
+				F3EB73BC1CA73D1E00B5C0CF /* Richer Planner.appTests.xctest */,
+				F3EB73C71CA73D1E00B5C0CF /* Richer Planner.appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3EB73AA1CA73D1E00B5C0CF /* Richer Planner.app */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB73AB1CA73D1E00B5C0CF /* AppDelegate.swift */,
+				F3EB73AD1CA73D1E00B5C0CF /* ViewController.swift */,
+				F3EB73AF1CA73D1E00B5C0CF /* Main.storyboard */,
+				F3EB73B21CA73D1E00B5C0CF /* Assets.xcassets */,
+				F3EB73B41CA73D1E00B5C0CF /* LaunchScreen.storyboard */,
+				F3EB73B71CA73D1E00B5C0CF /* Info.plist */,
+			);
+			path = "Richer Planner.app";
+			sourceTree = "<group>";
+		};
+		F3EB73BF1CA73D1E00B5C0CF /* Richer Planner.appTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB73C01CA73D1E00B5C0CF /* Richer_Planner_appTests.swift */,
+				F3EB73C21CA73D1E00B5C0CF /* Info.plist */,
+			);
+			path = "Richer Planner.appTests";
+			sourceTree = "<group>";
+		};
+		F3EB73CA1CA73D1E00B5C0CF /* Richer Planner.appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB73CB1CA73D1E00B5C0CF /* Richer_Planner_appUITests.swift */,
+				F3EB73CD1CA73D1E00B5C0CF /* Info.plist */,
+			);
+			path = "Richer Planner.appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3EB73A71CA73D1E00B5C0CF /* Richer Planner.app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EB73D01CA73D1E00B5C0CF /* Build configuration list for PBXNativeTarget "Richer Planner.app" */;
+			buildPhases = (
+				F3EB73A41CA73D1E00B5C0CF /* Sources */,
+				F3EB73A51CA73D1E00B5C0CF /* Frameworks */,
+				F3EB73A61CA73D1E00B5C0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Richer Planner.app";
+			productName = "Richer Planner.app";
+			productReference = F3EB73A81CA73D1E00B5C0CF /* Richer Planner.app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3EB73BB1CA73D1E00B5C0CF /* Richer Planner.appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EB73D31CA73D1E00B5C0CF /* Build configuration list for PBXNativeTarget "Richer Planner.appTests" */;
+			buildPhases = (
+				F3EB73B81CA73D1E00B5C0CF /* Sources */,
+				F3EB73B91CA73D1E00B5C0CF /* Frameworks */,
+				F3EB73BA1CA73D1E00B5C0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3EB73BE1CA73D1E00B5C0CF /* PBXTargetDependency */,
+			);
+			name = "Richer Planner.appTests";
+			productName = "Richer Planner.appTests";
+			productReference = F3EB73BC1CA73D1E00B5C0CF /* Richer Planner.appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3EB73C61CA73D1E00B5C0CF /* Richer Planner.appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EB73D61CA73D1E00B5C0CF /* Build configuration list for PBXNativeTarget "Richer Planner.appUITests" */;
+			buildPhases = (
+				F3EB73C31CA73D1E00B5C0CF /* Sources */,
+				F3EB73C41CA73D1E00B5C0CF /* Frameworks */,
+				F3EB73C51CA73D1E00B5C0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3EB73C91CA73D1E00B5C0CF /* PBXTargetDependency */,
+			);
+			name = "Richer Planner.appUITests";
+			productName = "Richer Planner.appUITests";
+			productReference = F3EB73C71CA73D1E00B5C0CF /* Richer Planner.appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3EB73A01CA73D1E00B5C0CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Juan Romero";
+				TargetAttributes = {
+					F3EB73A71CA73D1E00B5C0CF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = G8AL52H5PE;
+					};
+					F3EB73BB1CA73D1E00B5C0CF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = G8AL52H5PE;
+						TestTargetID = F3EB73A71CA73D1E00B5C0CF;
+					};
+					F3EB73C61CA73D1E00B5C0CF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = G8AL52H5PE;
+						TestTargetID = F3EB73A71CA73D1E00B5C0CF;
+					};
+				};
+			};
+			buildConfigurationList = F3EB73A31CA73D1E00B5C0CF /* Build configuration list for PBXProject "Richer Planner.app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3EB739F1CA73D1E00B5C0CF;
+			productRefGroup = F3EB73A91CA73D1E00B5C0CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3EB73A71CA73D1E00B5C0CF /* Richer Planner.app */,
+				F3EB73BB1CA73D1E00B5C0CF /* Richer Planner.appTests */,
+				F3EB73C61CA73D1E00B5C0CF /* Richer Planner.appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3EB73A61CA73D1E00B5C0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EB73B61CA73D1E00B5C0CF /* LaunchScreen.storyboard in Resources */,
+				F3EB73B31CA73D1E00B5C0CF /* Assets.xcassets in Resources */,
+				F3EB73B11CA73D1E00B5C0CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EB73BA1CA73D1E00B5C0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EB73C51CA73D1E00B5C0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3EB73A41CA73D1E00B5C0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EB73AE1CA73D1E00B5C0CF /* ViewController.swift in Sources */,
+				F3EB73AC1CA73D1E00B5C0CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EB73B81CA73D1E00B5C0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EB73C11CA73D1E00B5C0CF /* Richer_Planner_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EB73C31CA73D1E00B5C0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EB73CC1CA73D1E00B5C0CF /* Richer_Planner_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3EB73BE1CA73D1E00B5C0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3EB73A71CA73D1E00B5C0CF /* Richer Planner.app */;
+			targetProxy = F3EB73BD1CA73D1E00B5C0CF /* PBXContainerItemProxy */;
+		};
+		F3EB73C91CA73D1E00B5C0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3EB73A71CA73D1E00B5C0CF /* Richer Planner.app */;
+			targetProxy = F3EB73C81CA73D1E00B5C0CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3EB73AF1CA73D1E00B5C0CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3EB73B01CA73D1E00B5C0CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3EB73B41CA73D1E00B5C0CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3EB73B51CA73D1E00B5C0CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3EB73CE1CA73D1E00B5C0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3EB73CF1CA73D1E00B5C0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3EB73D11CA73D1E00B5C0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Richer Planner.app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.Richer-Planner-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3EB73D21CA73D1E00B5C0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Richer Planner.app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.Richer-Planner-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3EB73D41CA73D1E00B5C0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Richer Planner.appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.Richer-Planner-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Richer Planner.app.app/Richer Planner.app";
+			};
+			name = Debug;
+		};
+		F3EB73D51CA73D1E00B5C0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Richer Planner.appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.Richer-Planner-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Richer Planner.app.app/Richer Planner.app";
+			};
+			name = Release;
+		};
+		F3EB73D71CA73D1E00B5C0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Richer Planner.appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.Richer-Planner-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Richer Planner.app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F3EB73D81CA73D1E00B5C0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Richer Planner.appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Juan-Romero.Richer-Planner-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Richer Planner.app";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3EB73A31CA73D1E00B5C0CF /* Build configuration list for PBXProject "Richer Planner.app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EB73CE1CA73D1E00B5C0CF /* Debug */,
+				F3EB73CF1CA73D1E00B5C0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3EB73D01CA73D1E00B5C0CF /* Build configuration list for PBXNativeTarget "Richer Planner.app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EB73D11CA73D1E00B5C0CF /* Debug */,
+				F3EB73D21CA73D1E00B5C0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3EB73D31CA73D1E00B5C0CF /* Build configuration list for PBXNativeTarget "Richer Planner.appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EB73D41CA73D1E00B5C0CF /* Debug */,
+				F3EB73D51CA73D1E00B5C0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3EB73D61CA73D1E00B5C0CF /* Build configuration list for PBXNativeTarget "Richer Planner.appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EB73D71CA73D1E00B5C0CF /* Debug */,
+				F3EB73D81CA73D1E00B5C0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3EB73A01CA73D1E00B5C0CF /* Project object */;
+}
